@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | MSSK EXIM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MSSK EXIM</a>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-section contact-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">Have questions? We are here to help you grow your business globally.</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <h3>Our Office</h3>
+                        <p>Donaj, Mangalwedha, Solapur,<br>Maharashtra 413319</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Contact Details</h3>
+                        <p>Email: abc@msskexim.com<br>management.mahesh99@gmail.com<br>Phone: +91 8668637029, +91 9923089311</p>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <h3>Book a Consultation</h3>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="" disabled selected>Select Service Interest</option>
+                        <option value="logistics">Global Logistics</option>
+                        <option value="customs">Customs Brokerage</option>
+                        <option value="warehousing">Warehousing</option>
+                        <option value="consulting">Supply Chain Consulting</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea placeholder="Briefly describe your requirements..." rows="4" required></textarea>
+                    <button type="submit">Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
